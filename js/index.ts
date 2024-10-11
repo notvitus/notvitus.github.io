@@ -1,7 +1,7 @@
 const VERSION: string = "v1.2";
 /*
-    baer1 website
-    Copyright (C) 2024  baer1
+    bvvitus website
+    Copyright (C) 2024  bvvitus
 
     This website is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -11,7 +11,7 @@ const VERSION: string = "v1.2";
     A copy of the GNU General Public License should be hosted along with
     this website (LICENSE). If not, see <https://www.gnu.org/licenses/>.
 
-    baer1f@outlook.com
+    bvvitus@outlook.com
 */
 
 window.addEventListener("load", () => {
