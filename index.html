@@ -1,20 +1,16 @@
 <!--
-Copyright (C) 2024 bvvitus/notvitus
+    baer1 website
+    Copyright (C) 2024  baer1
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+    This website is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
+    A copy of the GNU General Public License should be hosted along with
+    this website (LICENSE). If not, see <https://www.gnu.org/licenses/>.
 
-You should have received a copy of the GNU General Public License
-along with this program. If not, see <https://www.gnu.org/licenses/>.
-
-bvvitus@outlook.com
+    videocreator@outlook.de
 -->
 
 <!DOCTYPE html>
@@ -22,94 +18,81 @@ bvvitus@outlook.com
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>vitus is sus</title>
+    <title>notvitus</title>
     <link rel="stylesheet" href="css/index.css" />
   </head>
+
   <body>
-    <div id="version">HTML v1.2</div>
+    <!-- Dependencies / Scripts -->
+    <div id="version">HTML v1.5</div>
+    <script src="js/index.js"></script>
+
+    <!-- Donut background -->
     <div id="donut" class="donut"></div>
-    <script src="js/donut.js" defer></script>
+    <script src="ts/donut.js" defer></script>
+
+    <!-- Main page content (centered) -->
     <div id="content">
+      <!-- Main title -->
       <div>
-        notVITUS<span>Has like 3 friends.</span>
+        notVITUS
         <span>
-          Coding useless "NAAME: VITUS<br />
-          <span style="font-size: x-small">
-            (sussy since born.ඞ)
-          </span>
+          Friends: 3<br />
+          <span style="font-size: x-small"> (sussy forever ඞ) </span>
         </span>
       </div>
-      <button
-        data-href="https://t.me/bvvitus"
-        style="
-        --color:36, 161, 222;
-        --useless-color-source-variable: https://www.brandcolorcode.com/telegram;
-        --useless-icon-source-variable: https://telegram.org/tour/screenshots;
-        "
-      >
-        <img src="img/telegram_Logo.svg" alt="" />Telegram
+
+      <!-- Socials / Contact options -->
+      <button data-href="https://t.me/bvvitus" style="--color: 36, 161, 222">
+        <img src="img/telegram_Logo.svg" alt="" />
+        Telegram
       </button>
+
       <button
-        data-href="https://steamcommunity.com/profiles/76561199574556265/"
-        style="
-          --color: 27, 40, 56;
-          --hover-color: 42, 71, 94;
-          --disabled-color: 23, 26, 33;
-          --useless-color-source-variable: https://colorswall.com/palette/193;
-          --useless-icon-source-variable: https://de.wikipedia.org/wiki/Datei:Steam_icon_logo.svg;
-        "
+        data-href="https://steamcommunity.com/profiles/76561199574556265"
+        style="--color: 27, 40, 56; --hover-color: 42, 71, 94"
       >
-        <img src="img/Steam_icon_logo.svg" alt="" />Steam
+        <img src="img/Steam_icon_logo.svg" alt="" />
+        Steam
       </button>
+
       <button
         data-href="https://discordapp.com/users/950462998475071568"
-        style="
-          --color: 88, 101, 242;
-          --hover-color: 109, 121, 255;
-          --disabled-color: 35, 31, 75;
-          --useless-color-and-icon-source-variable: https://discord.com/branding;
-        "
+        style="--color: 88, 101, 242; --hover-color: 109, 121, 255"
         class="discord"
         id="discord"
       >
-        <img src="img/discord-mark-white.svg" alt="" />Discord
+        <img src="img/discord-mark-white.svg" />
+        Discord
       </button>
+
       <button
         data-href="https://github.com/notvitus"
-        style="
-        --color: 36, 41, 46; 
-        --hover-color: 43, 49, 55;
-        --useless-color-source-variable: https://www.color-hex.com/color-palette/41067;
-        --useless-icon-source-variable: https://github.com/logos;
-        "
+        style="--color: 36, 41, 46; --hover-color: 43, 49, 55"
       >
-        <img src="img/github-mark-white.svg" alt="" />Github
+        <img src="img/github-mark-white.svg" />
+        Github
       </button>
+
       <button
         data-href="https://www.youtube.com/@thevitus2"
-        style="
-        --color: 255,0,0; 
-        --hover-color: 255,0,0;
-        --disabled-color: 40, 40, 40;
-        --useless-color-source-variable: https://www.youtube.com/howyoutubeworks/resources/brand-resources/#logos-icons-and-colors;
-        --useless-icon-source-variable: https://commons.wikimedia.org/wiki/File:YouTube_dark_icon_%282017%29.svg;
-        "
+        style="--color: 255, 0, 0; --hover-color: 255, 0, 0"
       >
-        <img src="img/YouTube_dark_icon_(2017).svg" alt="" />Youtube
+        <img src="img/YouTube_dark_icon_(2017).svg" />
+        Youtube
       </button>
+
       <button
         data-href="https://www.tiktok.com/@bvvitus"
-        style="
-        --color: 0,0,0;
-        --useless-color-source-variable: https://www.designpieces.com/palette/tiktok-color-palette-hex-and-rgb/;
-        --useless-icon-source-variable: https://www.svgrepo.com/svg/452114/tiktok;
-        "
+        style="--color: 0, 0, 0"
         class="tiktok"
       >
-        <img src="img/tiktok.svg" alt="" />TikTok
+        <img src="img/tiktok.svg" />
+        TikTok
       </button>
-      <span class="update">18.06.2024 8:17pm</span>
+
+      <!-- Last-updated footer -->
+      <span class="update">13.10.2024 00:20</span>
     </div>
-    <script src="js/index.js"></script>
   </body>
 </html>
