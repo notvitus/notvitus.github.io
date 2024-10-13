@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>baers-first-dupe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> <!-- Open Sans einfügen -->
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif; /* Open Sans Schriftart */
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 100vh;
+            margin: 0;
+            padding-top: 3mm; /* Abstand von oben */
+        }
+        .contact-container {
+            background-color: #ffffff; /* Hintergrundfarbe */
+            padding: 10px;
+            border-radius: 8px;
+            width: 100%; /* 100% der Breite des Bildschirms */
+            max-width: 350px; /* Maximale Breite, um auf jedem Gerät gut auszusehen */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sanfter Schatten */
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            padding: 12px;
+            padding-left: 5mm; /* 5mm Abstand links */
+            padding-right: 5mm; /* 5mm Abstand rechts */
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            width: 100%;
+            height: 60px;
+            box-sizing: border-box;
+            transition: background-color 0.3s; /* Sanfter Übergang bei Hover */
+            text-decoration: none; /* Keine Unterstreichung für Links */
+        }
+        .contact-item:hover {
+            opacity: 0.8; /* Leichte Transparenz beim Hover */
+        }
+        .contact-item img {
+            margin-right: 5mm; /* 5mm Abstand zum Text */
+            height: 40px;
+            width: 40px;
+        }
+        .whatsapp {
+            background-color: #25D366;
+        }
+        .telegram {
+            background-color: #0088cc;
+        }
+        .discord {
+            background-color: #7289DA;
+        }
+        .viber {
+            background-color: #4d4a5e;
+        }
+        .github {
+            background-color: #202729;
+        }
+        .email {
+            background-color: #333;
+        }
+
+        .youtube {
+            background-color: #bb2d2d;
+        }
+    </style>
+</head>
+<body>
+    <div class="contact-container">
+        <a href="https://wa.me/4915127002624" class="contact-item whatsapp" target="_blank">
+            <img src="img/whatsapp.png" alt="WhatsApp">
+            <span>WhatsApp<br>+49 1512 7002624</span>
+        </a>
+        <a href="https://t.me/bvvitus" class="contact-item telegram" target="_blank">
+            <img src="img/telegram_Logo.svg" alt="Telegram">
+            <span>Telegramm<br>@bvvitus</span>
+        </a>
+        <a href="https://discordapp.com/users/950462998475071568" class="contact-item discord" target="_blank">
+            <img src="img/discord-mark-white.svg" alt="Discord">
+            <span>Discord<br>@vitus_o</span>
+        </a>
+        <a href="https://steamcommunity.com/profiles/76561199574556265/" class="contact-item viber" target="_blank">
+            <img src="img/Steam_icon_logo.svg" alt="Viber">
+            <span>Steam<br>bvvitus*</span>
+        </a>
+        <a href="https://github.com/notvitus" class="contact-item github" target="_blank">
+            <img src="img/github-mark-white.svg" alt="GitHub">
+            <span>GitHub<br>notVitus</span>
+        </a>
+        <a href="mailto:bvvitus@outlook.com" class="contact-item email" target="_blank">
+            <img src="img/at-symbol-1-894307.png" alt="Email">
+            <span>Email<br>bvvitus@outlook.com</span>
+        </a>
+        <a href="https://wa.me/4915127002624" class="contact-item youtube" target="_blank">
+            <img src="img/YouTube_dark_icon_(2017).svg" alt="WhatsApp">
+            <span>YouTube<br>bavariavitus</span>
+        </a>
+    </div>
+</body>
+</html>
